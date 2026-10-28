@@ -12,13 +12,20 @@ EditorBuildSettings:
     path: Assets/Scenes/Proto_Socket.unity
     guid: 264afaf0f9c8c9b46af001714252d638
   - enabled: 1
-    path: Assets/Scenes/_Project/Salle01.unity
+    path: Assets/_Project/Scenes/Salle01.unity
     guid: 57bbc5b65a302264c8c98683a803cc1a
+  - enabled: 1
+    path: Assets/_Project/Scenes/Salle03.unity
+    guid: 90a6163ca6d5e1441a6f557b4661f150
+  - enabled: 1
+    path: Assets/_Project/Scenes/Salle02.unity
+    guid: a074faaa10b83324e8239eab9ca10d68
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 9bec1ce6a03ccba4b9a8215241b32e63, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: a49cadc1a815591479693b955ccf08c1, type: 2}
+    com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 640e2e506feba224c91c4298a36d8cff, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 985fdffee33a5944396199c6b7145dd4, type: 3}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 908d62378b8205449861e5838a18a596, type: 2}

@@ -111,3 +111,5 @@ InitTestScene*.unity*
 # Dossiers de build Unity
 *_BackUpThisFolder_ButDontShipItWithYourGame/
 /Builds/
+*.apk
+*_BurstDebugInformation_DoNotShip/

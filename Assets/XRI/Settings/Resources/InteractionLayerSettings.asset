@@ -14,15 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LayerNames:
   - Default
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Poche
+  - Tubulure
+  - Aiguille
+  - Tubes
+  - Intrus
+  - Groupe_A
+  - Groupe_B
+  - Groupe_O
+  - Groupe_AB
   - 
   - 
   - 
