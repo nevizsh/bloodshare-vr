@@ -1446,7 +1446,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneFader
   voile: {fileID: 1238344008}
-  sceneSuivante: Salle01
+  sceneSuivante: Menu
   attenteAvantFondu: 14
   dureeFondu: 1.2
 --- !u!4 &637509653

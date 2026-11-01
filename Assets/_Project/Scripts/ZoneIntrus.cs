@@ -6,6 +6,9 @@ public class ZoneIntrus : MonoBehaviour
     [SerializeField] private string tagIntrus = "Intrus";
     [SerializeField] private float duree = 2.5f;
 
+    [SerializeField] private AudioSource source;
+    [SerializeField] private AudioClip son;
+
     private float timer;
 
     private void Awake()
@@ -16,7 +19,12 @@ public class ZoneIntrus : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (!other.CompareTag(tagIntrus)) return;
+
         if (message != null) message.SetActive(true);
+
+        if (source != null && son != null && timer <= 0f)
+            source.PlayOneShot(son, 0.6f);
+
         timer = duree;
     }
 

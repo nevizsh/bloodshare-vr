@@ -29,14 +29,19 @@ public class HoverLabel : MonoBehaviour
     public void Show(Transform t, string label)
     {
         target = t;
-        if (text == null) return;
-        text.text = label;
-        text.gameObject.SetActive(true);
+        if (text != null) text.text = label;
+        SetVisible(true);
     }
 
     public void Hide()
     {
         target = null;
-        if (text != null) text.gameObject.SetActive(false);
+        SetVisible(false);
+    }
+
+    private void SetVisible(bool visible)
+    {
+        for (int i = 0; i < transform.childCount; i++)
+            transform.GetChild(i).gameObject.SetActive(visible);
     }
 }
